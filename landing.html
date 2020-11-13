@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DHP Internal Page</title>
+<meta name="viewport" content="with=device-with, initial-scale=1">
+
+<style>
+*{box-sizing: border-box}
+body, html{
+	height: 100%;
+	margin: 0;
+	font-family: Arial,Helvetic, sans-serf;
+}
+.right{
+	text-align: right;
+	border: black;
+}
+/*Style of the tab*/
+.topnav a{
+	background-color: #555;
+	color: white;
+	float:left;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 20%;
+}
+
+.topnav a:hover {
+	background-color: #777;
+}
+
+.topnav a.active {
+  background-color: drak gray;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+		
+	<div class="topnav">
+		<a class="active" href="home.html">DHL Internal</a>
+			<div class="right">
+			
+			<a href="list.html">List</a>
+			<a class="active" href="queue.html">Queue</a>
+			<a class="active" href="history.html">History</a>
+		
+			<a class="active" class="logout" onclick="location.href='Loging.html'">Logout</a> 
+
+		</div>
+		
+
+	</div>
+	
+  
+</body>
+</html>

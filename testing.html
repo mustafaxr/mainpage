@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DHP Internal Page</title>
+<meta name="viewport" content="with=device-with, initial-scale=1">
+<link href="style.cee" rel="stylesheet" type="text/css">
+<style>
+*{box-sizing: border-box}
+body, html{
+	height: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+/*Style of the tab*/
+.tablink{
+	background-color: #555;
+	color: white;
+	float:left;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+}
+.tablink:hover {
+	background-color: #777;
+}
+/*the style of tab content(full page)*/
+.tabcontent{
+	color: black;
+	display: none;
+	padding: 100px 20px;
+	height: 100%;
+}
+
+</style>
+</head>
+<body>
+	
+    
+    <div class="topnav">
+		<a class="active" href="#List">List</a>
+		<a href="#Queue">Queue</a>
+		<a href="#History">History</a>
+		<a href="active">Logout</a>    
+
+    </div>
+    
+    
+	<div id="Logout" class="tabcontent"><h3>Logout</h3>
+	     <script>
+			function closePage(){
+		 	 alert("You are about to log out!");
+			}
+		</script>
+    
+    </div>
+    	
+
+
+</body>
+</html>
