@@ -1,0 +1,64 @@
+
+
+@charset "ISO-8859-1";
+ body {
+	margin: 0;
+	background: 255255255;
+	font-family: 'Arila', serif;
+	font-weight: 300;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header {
+	background: #808080;
+}
+header::after{
+	content: '';
+	display: table;
+	clear: both
+}
+nav {
+	text-align: center;
+	padding: 10px 0 10px 0;
+	float: right;
+}
+
+nav lu {
+	margin: 0;
+	display: inline-block;
+	padding: 0;
+	list-style: none;
+}
+nav  li {
+	display: inline-block;
+	margin-left: 80px;
+	padding-top: 0px;
+}
+nav >li >a:hover{
+	color:#000000;
+}
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.nav a:hover{
+	background-color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
