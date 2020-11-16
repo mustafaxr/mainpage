@@ -1,12 +1,10 @@
 
-
 @charset "ISO-8859-1";
 *{
 	margin: 0;
-	padding: 0;
-	
+	padding: 0;	
 }
-body {
+ body {
 	margin: 0;
 	background:#c0c0c0 ;
 	font-family: 'Arila', serif;
@@ -17,7 +15,6 @@ nav {
 	height: 60px;
 	background-color: #fff;
 }
-
 nav p {
 	font-family: arial;
 	color: #222;
